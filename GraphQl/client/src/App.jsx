@@ -14,6 +14,7 @@ const query = gql`
       phone
     }
   }
+  
 `;
 function App() {
   const { data, loading, error } = useQuery(query);
